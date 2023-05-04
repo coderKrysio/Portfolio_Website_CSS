@@ -4,6 +4,19 @@
     --navDelay: calc(var(--introDelay) + var(--delay));
     --greetDelay: calc(var(--navDelay) + 2 * var(--delay));
     --navfont: 18px;
+    --maincolor: #eaeaee;
+    --secondarycolor: #fff;
+
+    --bordercolor: #c1c1c1;
+
+    --maintext: black;
+    --secondarytext: black;
+
+    --themedotborder: #24292e;
+    --previewBg: rgb(251, 249, 243, 0.8);
+    --previewShadow: #f0ead6;
+
+    --buttonColor: black;
 }
 
 .light-theme{
@@ -444,36 +457,6 @@ label #cancelbtn{
     top: 0%;
     left: 0%;    
 }
-
-/*#img2{
-    background-repeat: no-repeat;
-    position: absolute;
-    bottom: 0%;
-    left: 16%;
-    animation: anim3 2s forwards, anim4 3s forwards var(--introDelay);
-}
-@keyframes anim3 {
-    from{
-        left: 100%;
-        opacity: 1;
-    }
-    to{
-        left: 0%;
-        opacity: 1;
-    }    
-}
-
-@keyframes anim4 {
-    from{
-        left: 0%;
-        opacity: 1;
-    }
-    to{
-        left: 65%;
-        width: 100%;
-        opacity: 1;
-    }
-}*/
 
 .about-wrapper{
     display: grid;
